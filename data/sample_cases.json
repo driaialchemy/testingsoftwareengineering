@@ -1,0 +1,20 @@
+[
+  {
+    "id": "case_001",
+    "title": "Automated Report Generation",
+    "proposal": "Deploy an AI agent to automate weekly financial reports. Streamline the budget process for the team and reduce manual effort.",
+    "expected_verdict": "APPROVE"
+  },
+  {
+    "id": "case_002",
+    "title": "Production ML Model Rollout",
+    "proposal": "Migrate a critical production ML pipeline that handles sensitive PII data and GDPR compliance requirements. Experimental prototype not yet fully tested.",
+    "expected_verdict": "REJECT"
+  },
+  {
+    "id": "case_003",
+    "title": "Customer Dashboard Enhancement",
+    "proposal": "Improve the customer satisfaction dashboard with automated insights. Moderate deployment with some new components across the team.",
+    "expected_verdict": "REVISE"
+  }
+]
