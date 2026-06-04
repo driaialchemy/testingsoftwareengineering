@@ -10,3 +10,4 @@ build/
 .DS_Store
 .pytest_cache/
 outputs/audit_log.json
+comparison*.md
