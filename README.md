@@ -4,6 +4,28 @@ A local-first Streamlit app that routes AI workflow proposals through a three-ag
 
 ---
 
+## For A Novice Reader
+
+This app acts like a small approval committee for AI automation ideas. You paste
+in a proposal, and it scores the idea for risk and business value. The result is
+a clear recommendation: approve it, revise it, or reject it.
+
+Everything runs on your own machine. It does not need cloud AI models or API
+keys, so the same proposal should produce the same score every time.
+
+---
+
+## For A Technical Reader
+
+The project is a deterministic Streamlit prototype with three Python agents:
+`risk_agent`, `value_agent`, and `decision_synthesizer`. It uses keyword-based
+scoring rules, fixed threshold logic, confidence calculation, and an append-only
+JSON audit log. The runtime has no external API dependency, and the pytest suite
+covers score ranges, average calculations, verdict boundaries, required output
+keys, and confidence bounds.
+
+---
+
 ## Purpose
 
 Organizations adopting AI automation need a lightweight way to assess proposals before committing resources. This app simulates a multi-agent review board that scores each proposal on risk and business value, then applies fixed decision thresholds to produce a consistent, auditable outcome — with no external APIs or cloud dependencies.
